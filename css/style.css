@@ -22,6 +22,10 @@
     gap: 20px;
 }
 
+.shadow {
+    box-shadow: 5px 5px 28px 0;
+}
+
 .restrita{
     display: flex;
     align-items: center;
@@ -31,10 +35,8 @@
     justify-content: center;
     width: 50%;
     height: 100%;
-    border: 1px solid black;
-    box-shadow: inset 1px 1px 1px 1px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
     border-radius: 20px;
-    background-image: linear-gradient(rgb(27, 27, 179), rgb(54, 73, 160));
 }
 
 .super{
@@ -44,8 +46,7 @@
     gap: 10px;
     width: 50%;
     height: 100%;
-    border: 1px solid black;
-    box-shadow: inset 1px 1px 1px 1px;
+    border: 1px solid rgba(0, 0, 0, 0.103);
     border-radius: 20px;
 }
 
