@@ -21,11 +21,11 @@ function senhaSuperRestrita() {
 }
 
 var restrita = senhaRestrita();
-var div1 = document.querySelector("[class='valorRestrita']");
+var div1 = document.querySelector("[id='valorRestrita']");
 div1.innerHTML = restrita;
 
 var superRestrita = senhaSuperRestrita();
-var div2 = document.querySelector("[class='valorSuperRestrita']");
+var div2 = document.querySelector("[id='valorSuperRestrita']");
 div2.innerHTML = superRestrita;
 
   
